@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CBEFA311CFF1DCD00064D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBEFA301CFF1DCD00064D51 /* AppDelegate.swift */; };
+		6CBEFA331CFF1DCD00064D51 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBEFA321CFF1DCD00064D51 /* art.scnassets */; };
+		6CBEFA351CFF1DCD00064D51 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBEFA341CFF1DCD00064D51 /* GameViewController.swift */; };
+		6CBEFA381CFF1DCD00064D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBEFA361CFF1DCD00064D51 /* Main.storyboard */; };
+		6CBEFA3A1CFF1DCD00064D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBEFA391CFF1DCD00064D51 /* Assets.xcassets */; };
+		6CBEFA3D1CFF1DCD00064D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBEFA3B1CFF1DCD00064D51 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CBEFA2D1CFF1DCD00064D51 /* Slappy Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slappy Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBEFA301CFF1DCD00064D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CBEFA321CFF1DCD00064D51 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6CBEFA341CFF1DCD00064D51 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6CBEFA371CFF1DCD00064D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CBEFA391CFF1DCD00064D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CBEFA3C1CFF1DCD00064D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CBEFA3E1CFF1DCD00064D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CBEFA2A1CFF1DCD00064D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CBEFA241CFF1DCD00064D51 = {
+			isa = PBXGroup;
+			children = (
+				6CBEFA2F1CFF1DCD00064D51 /* Slappy Ball */,
+				6CBEFA2E1CFF1DCD00064D51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CBEFA2E1CFF1DCD00064D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFA2D1CFF1DCD00064D51 /* Slappy Ball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CBEFA2F1CFF1DCD00064D51 /* Slappy Ball */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFA301CFF1DCD00064D51 /* AppDelegate.swift */,
+				6CBEFA341CFF1DCD00064D51 /* GameViewController.swift */,
+				6CBEFA321CFF1DCD00064D51 /* art.scnassets */,
+				6CBEFA361CFF1DCD00064D51 /* Main.storyboard */,
+				6CBEFA391CFF1DCD00064D51 /* Assets.xcassets */,
+				6CBEFA3B1CFF1DCD00064D51 /* LaunchScreen.storyboard */,
+				6CBEFA3E1CFF1DCD00064D51 /* Info.plist */,
+			);
+			path = "Slappy Ball";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CBEFA2C1CFF1DCD00064D51 /* Slappy Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CBEFA411CFF1DCD00064D51 /* Build configuration list for PBXNativeTarget "Slappy Ball" */;
+			buildPhases = (
+				6CBEFA291CFF1DCD00064D51 /* Sources */,
+				6CBEFA2A1CFF1DCD00064D51 /* Frameworks */,
+				6CBEFA2B1CFF1DCD00064D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slappy Ball";
+			productName = "Slappy Ball";
+			productReference = 6CBEFA2D1CFF1DCD00064D51 /* Slappy Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CBEFA251CFF1DCD00064D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dulio Denis";
+				TargetAttributes = {
+					6CBEFA2C1CFF1DCD00064D51 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6CBEFA281CFF1DCD00064D51 /* Build configuration list for PBXProject "Slappy Ball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CBEFA241CFF1DCD00064D51;
+			productRefGroup = 6CBEFA2E1CFF1DCD00064D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CBEFA2C1CFF1DCD00064D51 /* Slappy Ball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CBEFA2B1CFF1DCD00064D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBEFA331CFF1DCD00064D51 /* art.scnassets in Resources */,
+				6CBEFA3D1CFF1DCD00064D51 /* LaunchScreen.storyboard in Resources */,
+				6CBEFA3A1CFF1DCD00064D51 /* Assets.xcassets in Resources */,
+				6CBEFA381CFF1DCD00064D51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CBEFA291CFF1DCD00064D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBEFA351CFF1DCD00064D51 /* GameViewController.swift in Sources */,
+				6CBEFA311CFF1DCD00064D51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CBEFA361CFF1DCD00064D51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CBEFA371CFF1DCD00064D51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CBEFA3B1CFF1DCD00064D51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CBEFA3C1CFF1DCD00064D51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CBEFA3F1CFF1DCD00064D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CBEFA401CFF1DCD00064D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CBEFA421CFF1DCD00064D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slappy Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.ddapps.Slappy-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CBEFA431CFF1DCD00064D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Slappy Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.ddapps.Slappy-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CBEFA281CFF1DCD00064D51 /* Build configuration list for PBXProject "Slappy Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CBEFA3F1CFF1DCD00064D51 /* Debug */,
+				6CBEFA401CFF1DCD00064D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CBEFA411CFF1DCD00064D51 /* Build configuration list for PBXNativeTarget "Slappy Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CBEFA421CFF1DCD00064D51 /* Debug */,
+				6CBEFA431CFF1DCD00064D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CBEFA251CFF1DCD00064D51 /* Project object */;
+}
